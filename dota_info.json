@@ -2,6 +2,7 @@
     "heroes":{
         "Axe":{
             "altHeroName": "Mogul Khan",
+            "heroAttribute": "Strength",
             "abilities":{
                 "Berserker's Call": {
                     "ult": false,
@@ -179,6 +180,175 @@
             "nighttimeVision": 800,
             "attackPoint": 0.5,
             "attackBackswing": 0.5,
+            "missileSpeed": 0,
+            "collsionSize": 24
+        },
+        "Earthshaker":{
+            "altHeroName": "Raigor Stonehoof",
+            "heroAttribute": "Strength",
+            "abilities":{
+                "Fissure": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": "magical",
+                    "castPoint": 0.69,
+                    "castBackswing": 0,
+                    "radius": null,
+                    "effects": {
+                        "fissureLength": 1400,
+                        "fissureStunRadius": 225,
+                        "fissureDuration": 8
+                    },
+                    "DPS": null,
+                    "damage": {
+                        "level1": 110,
+                        "level2": 160,
+                        "level3": 210,
+                        "level4": 260
+                    },
+                    "castRange": 1400,
+                    "duration": {
+                        "level1": 1,
+                        "level2": 1.25,
+                        "level3": 1.5,
+                        "level4": 1.75
+                    },
+                    "cooldown": 15,
+                    "manacost": {
+                        "level1": 125,
+                        "level2": 140,
+                        "level3": 155,
+                        "level4": 170
+                    },
+                    "bkbPiercing": "partial",
+                    "linkensBlocked": false,
+                    "dispellable": "partial",
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                },
+                "Enchant Totem": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": null,
+                    "castPoint": 0.69,
+                    "castBackswing": 0.57,
+                    "radius": null,
+                    "castRange": null,
+                    "effects": {
+                        "attackDamageBonus": {
+                            "level1": "100%",
+                            "level2": "200%",
+                            "level3": "300%",
+                            "level4": "400%"
+                        }
+                    },
+                    "duration": 14,
+                    "manacost": {
+                        "level1": 20,
+                        "level2": 30,
+                        "level3": 40,
+                        "level4": 50
+                    },
+                    "DPS": null,
+                    "damage": null,
+                    "cooldown": 5,
+                    "bkbPiercing": true,
+                    "linkensBlocked": false,
+                    "dispellable": true,
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                },
+                "Aftershock": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": "magical",
+                    "castPoint": 0.69,
+                    "castBackswing": 0.57,
+                    "radius": 300,
+                    "castRange": null,
+                    "effects": null,
+                    "duration": {
+                        "level1": 0.6,
+                        "level2": 0.9,
+                        "level3": 1.2,
+                        "level4": 1.5
+                    },
+                    "manacost": null,
+                    "DPS": null,
+                    "damage": {
+                        "level1": 50,
+                        "level2": 75,
+                        "level3": 100,
+                        "level4": 125
+                    },
+                    "cooldown": null,
+                    "bkbPiercing": false,
+                    "linkensBlocked": false,
+                    "dispellable": "partial",
+                    "usableByIllusions": null,
+                    "breakDisabled": true
+                },
+                "Echo Slam": {
+                    "ult": true,
+                    "aghsUpgradable": true,
+                    "damageType": "magical",
+                    "castPoint": 0,
+                    "castBackswing": 1.33,
+                    "radius": null,
+                    "castRange": null,
+                    "effects": {
+                        "initialDamageRadius": 575,
+                        "echoSearchRadius": 575,
+                        "initialDamage":{
+                            "level1": 160,
+                            "level2": 210,
+                            "level3": 270
+                        },
+                        "echoDamage":{
+                            "level1": 40,
+                            "level2": 55,
+                            "level3": 70
+                        }
+                    },
+                    "duration": null,
+                    "manacost": {
+                        "level1": 145,
+                        "level2": 205,
+                        "level3": 265
+                    },
+                    "DPS": null,
+                    "damage": null,
+                    "cooldown": {
+                        "level1": 150,
+                        "level2": 130,
+                        "level3": 110
+                    },
+                    "bkbPiercing": "partial",
+                    "linkensBlocked": false,
+                    "dispellable": null,
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                }
+            },
+            "baseAgi": 12,
+            "agiGain": 1.4,
+            "baseStr": 22,
+            "strGain": 2.9,
+            "baseInt": 16,
+            "intGain": 1.8,
+            "baseArmor": 1,
+            "baseAttackTime": 1.7,
+            "baseHPRegen": 0.25,
+            "baseManaRegen": 0.01,
+            "baseMoveSpeed": 310,
+            "baseDMGMin": 24,
+            "baseDMGMax": 34,
+            "attackRange": 128,
+            "turnRate": 0.9,
+            "daytimeVision": 1800,
+            "nighttimeVision": 800,
+            "attackPoint": 0.467,
+            "attackBackswing": 0.863,
             "missileSpeed": 0,
             "collsionSize": 24
         }
