@@ -1,0 +1,186 @@
+{
+    "heroes":{
+        "Axe":{
+            "altHeroName": "Mogul Khan",
+            "abilities":{
+                "Berserker's Call": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": null,
+                    "castPoint": 0.4,
+                    "castBackswing": 0.5,
+                    "radius": 300,
+                    "effects": {
+                        "armorBonus": 40
+                    },
+                    "DPS": null,
+                    "damage": null,
+                    "castRange": null,
+                    "duration": {
+                        "level1": 2,
+                        "level2": 2.4,
+                        "level3": 2.8,
+                        "level4": 3.2
+                    },
+                    "cooldown": {
+                        "level1": 16,
+                        "level2": 14,
+                        "level3": 12,
+                        "level4": 10
+                    },
+                    "manacost": {
+                        "level1": 80,
+                        "level2": 90,
+                        "level3": 100,
+                        "level4": 110
+                    },
+                    "bkbPiercing": true,
+                    "linkensBlocked": false,
+                    "dispellable": false,
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                },
+                "Battle Hunger": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": "magical",
+                    "castPoint": 0.3,
+                    "castBackswing": 0.5,
+                    "radius": null,
+                    "castRange": 750,
+                    "effects": {
+                        "movespeedSlow": 0.12,
+                        "movespeedBuff": 0.12
+                    },
+                    "duration": 10,
+                    "manacost": 75,
+                    "DPS": {
+                        "level1": 16,
+                        "level2": 24,
+                        "level3": 32,
+                        "level4": 40
+                    },
+                    "damage": null,
+                    "cooldown": {
+                        "level1": 20,
+                        "level2": 15,
+                        "level3": 10,
+                        "level4": 5
+                    },
+                    "bkbPiercing": false,
+                    "linkensBlocked": true,
+                    "dispellable": "partial",
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                },
+                "Counter Helix": {
+                    "ult": false,
+                    "aghsUpgradable": false,
+                    "damageType": "physical",
+                    "castPoint": null,
+                    "castBackswing": null,
+                    "radius": 275,
+                    "castRange": null,
+                    "effects": {
+                        "procChance": 0.2
+                    },
+                    "duration": null,
+                    "manacost": null,
+                    "DPS": null,
+                    "damage": {
+                        "level1": 100,
+                        "level2": 135,
+                        "level3": 170,
+                        "level4": 205
+                    },
+                    "cooldown": {
+                        "level1": 0.45,
+                        "level2": 0.4,
+                        "level3": 0.35,
+                        "level4": 0.3
+                    },
+                    "bkbPiercing": true,
+                    "linkensBlocked": false,
+                    "dispellable": null,
+                    "usableByIllusions": true,
+                    "breakDisabled": true
+                },
+                "Culling Blade": {
+                    "ult": true,
+                    "aghsUpgradable": true,
+                    "damageType": "magical/HP removal",
+                    "castPoint": 0.3,
+                    "castBackswing": 0.5,
+                    "radius": null,
+                    "castRange": 150,
+                    "effects": {
+                        "killMovespeedBonus": 0.3,
+                        "killAttackspeedBonus": 30,
+                        "KillSpeedDuration":{
+                            "base": 6,
+                            "aghs": 10
+                        },
+                        "KillThreshold" : {
+                            "base": {
+                                "level1": 250,
+                                "level2": 325,
+                                "level3": 400
+                            },
+                            "aghs": {
+                                "level1": 300,
+                                "level2": 425,
+                                "level3": 550
+                            }
+                        }
+                    },
+                    "duration": null,
+                    "manacost": {
+                        "level1": 60,
+                        "level2": 120,
+                        "level3": 180
+                    },
+                    "DPS": null,
+                    "damage": {
+                        "level1": 150,
+                        "level2": 250,
+                        "level3": 300
+                    },
+                    "cooldown": {
+                        "base": {
+                            "level1": 75,
+                            "level2": 65,
+                            "level3": 55
+                        },
+                        "aghs": 6
+                    },
+                    "bkbPiercing": true,
+                    "linkensBlocked": true,
+                    "dispellable": true,
+                    "usableByIllusions": null,
+                    "breakDisabled": null
+                }
+            },
+            "baseAgi": 20,
+            "agiGain": 2.2,
+            "baseStr": 25,
+            "strGain": 2.5,
+            "baseInt": 18,
+            "intGain": 1.6,
+            "baseArmor": -1,
+            "baseAttackTime": 1.7,
+            "baseHPRegen": 3,
+            "baseManaRegen": 0.01,
+            "baseMoveSpeed": 290,
+            "baseDMGMin": 24,
+            "baseDMGMax": 28,
+            "attackRange": 128,
+            "turnRate": 0.6,
+            "daytimeVision": 1800,
+            "nighttimeVision": 800,
+            "attackPoint": 0.5,
+            "attackBackswing": 0.5,
+            "missileSpeed": 0,
+            "collsionSize": 24
+        }
+    }
+}
