@@ -3,6 +3,27 @@
         "Axe":{
             "altHeroName": "Mogul Khan",
             "heroAttribute": "Strength",
+            "baseAgi": 20,
+            "agiGain": 2.2,
+            "baseStr": 25,
+            "strGain": 2.5,
+            "baseInt": 18,
+            "intGain": 1.6,
+            "baseArmor": -1,
+            "baseAttackTime": 1.7,
+            "baseHPRegen": 3,
+            "baseManaRegen": 0.01,
+            "baseMoveSpeed": 290,
+            "baseDMGMin": 24,
+            "baseDMGMax": 28,
+            "attackRange": 128,
+            "turnRate": 0.6,
+            "daytimeVision": 1800,
+            "nighttimeVision": 800,
+            "attackPoint": 0.5,
+            "attackBackswing": 0.5,
+            "missileSpeed": 0,
+            "collisionSize": 24,
             "abilities":{
                 "Berserker's Call": {
                     "ult": false,
@@ -168,32 +189,32 @@
                     "usableByIllusions": null,
                     "breakDisabled": null
                 }
-            },
-            "baseAgi": 20,
-            "agiGain": 2.2,
-            "baseStr": 25,
-            "strGain": 2.5,
-            "baseInt": 18,
-            "intGain": 1.6,
-            "baseArmor": -1,
-            "baseAttackTime": 1.7,
-            "baseHPRegen": 3,
-            "baseManaRegen": 0.01,
-            "baseMoveSpeed": 290,
-            "baseDMGMin": 24,
-            "baseDMGMax": 28,
-            "attackRange": 128,
-            "turnRate": 0.6,
-            "daytimeVision": 1800,
-            "nighttimeVision": 800,
-            "attackPoint": 0.5,
-            "attackBackswing": 0.5,
-            "missileSpeed": 0,
-            "collisionSize": 24
+            }
         },
         "Earthshaker":{
             "altHeroName": "Raigor Stonehoof",
             "heroAttribute": "Strength",
+            "baseAgi": 12,
+            "agiGain": 1.4,
+            "baseStr": 22,
+            "strGain": 2.9,
+            "baseInt": 16,
+            "intGain": 1.8,
+            "baseArmor": 1,
+            "baseAttackTime": 1.7,
+            "baseHPRegen": 0.25,
+            "baseManaRegen": 0.01,
+            "baseMoveSpeed": 310,
+            "baseDMGMin": 24,
+            "baseDMGMax": 34,
+            "attackRange": 128,
+            "turnRate": 0.9,
+            "daytimeVision": 1800,
+            "nighttimeVision": 800,
+            "attackPoint": 0.467,
+            "attackBackswing": 0.863,
+            "missileSpeed": 0,
+            "collisionSize": 24,
             "abilities":{
                 "Fissure": {
                     "ult": false,
@@ -345,33 +366,33 @@
                     "usableByIllusions": null,
                     "breakDisabled": null
                 }
-            },
-            "baseAgi": 12,
-            "agiGain": 1.4,
-            "baseStr": 22,
-            "strGain": 2.9,
-            "baseInt": 16,
-            "intGain": 1.8,
-            "baseArmor": 1,
-            "baseAttackTime": 1.7,
-            "baseHPRegen": 0.25,
-            "baseManaRegen": 0.01,
-            "baseMoveSpeed": 310,
-            "baseDMGMin": 24,
-            "baseDMGMax": 34,
-            "attackRange": 128,
-            "turnRate": 0.9,
-            "daytimeVision": 1800,
-            "nighttimeVision": 800,
-            "attackPoint": 0.467,
-            "attackBackswing": 0.863,
-            "missileSpeed": 0,
-            "collisionSize": 24
+            }
         }
     },
     "Sven": {
         "altHeroName": "The Rogue Knight",
         "heroAttribute": "Strength",
+        "baseAgi": 21,
+        "agiGain": 2,
+        "baseStr": 23,
+        "strGain": 2.7,
+        "baseInt": 16,
+        "intGain": 1.3,
+        "baseArmor": 2,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 295,
+        "baseDMGMin": 37,
+        "baseDMGMax": 39,
+        "attackRange": 128,
+        "turnRate": 0.6,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.4,
+        "attackBackswing": 0.3,
+        "missileSpeed": 0,
+        "collisionSize": 24,
         "abilities":{
             "Storm Hammer": {
                 "ult": false,
@@ -506,32 +527,32 @@
                 "usableByIllusions": false,
                 "breakDisabled": null
             }
-        },
-        "baseAgi": 21,
-        "agiGain": 2,
-        "baseStr": 23,
-        "strGain": 2.7,
-        "baseInt": 16,
-        "intGain": 1.3,
-        "baseArmor": 2,
-        "baseAttackTime": 1.7,
-        "baseHPRegen": 0.25,
-        "baseManaRegen": 0.01,
-        "baseMoveSpeed": 295,
-        "baseDMGMin": 37,
-        "baseDMGMax": 39,
-        "attackRange": 128,
-        "turnRate": 0.6,
-        "daytimeVision": 1800,
-        "nighttimeVision": 800,
-        "attackPoint": 0.4,
-        "attackBackswing": 0.3,
-        "missileSpeed": 0,
-        "collisionSize": 24
+        }
     },
     "Pudge": {
         "altHeroName": "The Butcher",
         "heroAttribute": "Strength",
+        "baseAgi": 14,
+        "agiGain": 1.5,
+        "baseStr": 25,
+        "strGain": 3.2,
+        "baseInt": 14,
+        "intGain": 1.5,
+        "baseArmor": -1,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 285,
+        "baseDMGMin": 27,
+        "baseDMGMax": 33,
+        "attackRange": 128,
+        "turnRate": 0.7,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.5,
+        "attackBackswing": 1.17,
+        "missileSpeed": 0,
+        "collisionSize": 24,
         "abilities":{
             "Meat Hook": {
                 "ult": false,
@@ -693,27 +714,196 @@
                 "usableByIllusions": null,
                 "breakDisabled": null
             }
-        },
-        "baseAgi": 14,
-        "agiGain": 1.5,
-        "baseStr": 25,
-        "strGain": 3.2,
-        "baseInt": 14,
-        "intGain": 1.5,
+        }
+    },
+    "Tiny": {
+        "altHeroName": "Stone Giant",
+        "heroAttribute": "Strength",
+        "baseAgi": 9,
+        "agiGain": 0.9,
+        "baseStr": 26,
+        "strGain": 3.0,
+        "baseInt": 17,
+        "intGain": 1.6,
         "baseArmor": -1,
         "baseAttackTime": 1.7,
         "baseHPRegen": 0.25,
         "baseManaRegen": 0.01,
         "baseMoveSpeed": 285,
-        "baseDMGMin": 27,
-        "baseDMGMax": 33,
+        "baseDMGMin": 37,
+        "baseDMGMax": 43,
         "attackRange": 128,
-        "turnRate": 0.7,
+        "turnRate": 0.5,
         "daytimeVision": 1800,
         "nighttimeVision": 800,
-        "attackPoint": 0.5,
-        "attackBackswing": 1.17,
+        "attackPoint": 0.49,
+        "attackBackswing": 1,
         "missileSpeed": 0,
-        "collisionSize": 24
+        "collisionSize": 24,
+        "abilities":{
+            "Avalanche": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0.53,
+                "radius": 275,
+                "effects": null,
+                "DPS": null,
+                "damage": {
+                    "level1": 100,
+                    "level2": 180,
+                    "level3": 260,
+                    "level4": 300
+                },
+                "castRange": 600,
+                "duration": 1,
+                "cooldown": 17,
+                "manacost": 120,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": "partial",
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Toss": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "units",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0.53,
+                "radius": null,
+                "castRange": 1300,
+                "effects": {
+                    "grabRadius": 275,
+                    "damageRadius": 275
+                },
+                "duration": 1.3,
+                "manacost": 120,
+                "DPS": null,
+                "damage": {
+                    "level1": 75,
+                    "level2": 150,
+                    "level3": 225,
+                    "level4": 300
+                },
+                "cooldown": 9,
+                "UAM": null,
+                "bkbPiercing": "partial",
+                "linkensBlocked": false,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Craggy Exterior": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": 300,
+                "castRange": null,
+                "effects": {
+                    "procChance": {
+                        "level1": "10%",
+                        "level2": "15%",
+                        "level3": "20%",
+                        "level4": "25%"
+                    },
+                    "armorBonus" : {
+                        "level1": 2,
+                        "level2": 3,
+                        "level3": 4,
+                        "level4": 5
+                    }    
+                },
+                "duration": {
+                    "level1": 1,
+                    "level2": 1.25,
+                    "level3": 1.5,
+                    "level4": 1.75
+                },
+                "manacost": null,
+                "DPS": null,
+                "damage": {
+                    "level1": 25,
+                    "level2": 35,
+                    "level3": 45,
+                    "level4": 55
+                },
+                "cooldown": null,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": "partial",
+                "usableByIllusions": false,
+                "breakDisabled": true
+            },
+            "Grow": {
+                "ult": true,
+                "aghsUpgradable": true,
+                "affects": "self",
+                "damageType": "physical",
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": null,
+                "castRange": null,
+                "effects": {
+                    "attackDamageBonus": {
+                        "level1": 50,
+                        "level2": 100,
+                        "level3": 150
+                    },
+                    "attackSpeedLoss": {
+                        "level1": 20,
+                        "level2": 35,
+                        "level3": 50
+                    },
+                    "tossDamageIncrese": {
+                        "base" : {
+                            "level1": "35%",
+                            "level2": "50%",
+                            "level3": "65%"
+                        },
+                        "aghs" : {
+                            "level1": "50%",
+                            "level2": "65%",
+                            "level3": "80%"
+                        }   
+                    },
+                    "attackRangeBonus": {
+                        "base" : 0,
+                        "aghs" : 107 
+                    },
+                    "cleaveRadius": {
+                        "base" : 0,
+                        "aghs" : 400 
+                    },
+                    "cleaveDamage": {
+                        "base" : 0,
+                        "aghs" : "50%" 
+                    },
+                    "buildingDamageBonus": {
+                        "base" : 0,
+                        "aghs" : "75%" 
+                    }
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": null,
+                "cooldown": null,
+                "UAM": false,
+                "bkbPiercing": true,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": "partial",
+                "breakDisabled": false
+            }
+        }
     }
 }
