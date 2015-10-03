@@ -7,6 +7,7 @@
                 "Berserker's Call": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "enemies",
                     "damageType": null,
                     "castPoint": 0.4,
                     "castBackswing": 0.5,
@@ -35,6 +36,7 @@
                         "level3": 100,
                         "level4": 110
                     },
+                    "UAM": null,
                     "bkbPiercing": true,
                     "linkensBlocked": false,
                     "dispellable": false,
@@ -44,14 +46,15 @@
                 "Battle Hunger": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "enemies",
                     "damageType": "magical",
                     "castPoint": 0.3,
                     "castBackswing": 0.5,
                     "radius": null,
                     "castRange": 750,
                     "effects": {
-                        "movespeedSlow": 0.12,
-                        "movespeedBuff": 0.12
+                        "movespeedSlow": "12%",
+                        "movespeedBuff": "12%"
                     },
                     "duration": 10,
                     "manacost": 75,
@@ -68,6 +71,7 @@
                         "level3": 10,
                         "level4": 5
                     },
+                    "UAM": null,
                     "bkbPiercing": false,
                     "linkensBlocked": true,
                     "dispellable": "partial",
@@ -77,13 +81,14 @@
                 "Counter Helix": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "enemies",
                     "damageType": "physical",
                     "castPoint": null,
                     "castBackswing": null,
                     "radius": 275,
                     "castRange": null,
                     "effects": {
-                        "procChance": 0.2
+                        "procChance": "20%"
                     },
                     "duration": null,
                     "manacost": null,
@@ -100,6 +105,7 @@
                         "level3": 0.35,
                         "level4": 0.3
                     },
+                    "UAM": null,
                     "bkbPiercing": true,
                     "linkensBlocked": false,
                     "dispellable": null,
@@ -109,13 +115,14 @@
                 "Culling Blade": {
                     "ult": true,
                     "aghsUpgradable": true,
+                    "affects": "enemies",
                     "damageType": "magical/HP removal",
                     "castPoint": 0.3,
                     "castBackswing": 0.5,
                     "radius": null,
                     "castRange": 150,
                     "effects": {
-                        "killMovespeedBonus": 0.3,
+                        "killMovespeedBonus": "30%",
                         "killAttackspeedBonus": 30,
                         "KillSpeedDuration":{
                             "base": 6,
@@ -154,6 +161,7 @@
                         },
                         "aghs": 6
                     },
+                    "UAM": null,
                     "bkbPiercing": true,
                     "linkensBlocked": true,
                     "dispellable": true,
@@ -190,6 +198,7 @@
                 "Fissure": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "enemies",
                     "damageType": "magical",
                     "castPoint": 0.69,
                     "castBackswing": 0,
@@ -220,6 +229,7 @@
                         "level3": 155,
                         "level4": 170
                     },
+                    "UAM": null,
                     "bkbPiercing": "partial",
                     "linkensBlocked": false,
                     "dispellable": "partial",
@@ -229,6 +239,7 @@
                 "Enchant Totem": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "self",
                     "damageType": null,
                     "castPoint": 0.69,
                     "castBackswing": 0.57,
@@ -252,6 +263,7 @@
                     "DPS": null,
                     "damage": null,
                     "cooldown": 5,
+                    "UAM": null,
                     "bkbPiercing": true,
                     "linkensBlocked": false,
                     "dispellable": true,
@@ -261,6 +273,7 @@
                 "Aftershock": {
                     "ult": false,
                     "aghsUpgradable": false,
+                    "affects": "enemies",
                     "damageType": "magical",
                     "castPoint": 0.69,
                     "castBackswing": 0.57,
@@ -282,6 +295,7 @@
                         "level4": 125
                     },
                     "cooldown": null,
+                    "UAM": null,
                     "bkbPiercing": false,
                     "linkensBlocked": false,
                     "dispellable": "partial",
@@ -291,6 +305,7 @@
                 "Echo Slam": {
                     "ult": true,
                     "aghsUpgradable": true,
+                    "affects": "enemies",
                     "damageType": "magical",
                     "castPoint": 0,
                     "castBackswing": 1.33,
@@ -323,6 +338,7 @@
                         "level2": 130,
                         "level3": 110
                     },
+                    "UAM": null,
                     "bkbPiercing": "partial",
                     "linkensBlocked": false,
                     "dispellable": null,
@@ -352,5 +368,165 @@
             "missileSpeed": 0,
             "collsionSize": 24
         }
+    },
+    "Sven": {
+        "altHeroName": "The Rogue Knight",
+        "heroAttribute": "Strength",
+        "abilities":{
+            "Storm Hammer": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0.3,
+                "castBackswing": 0,
+                "radius": 255,
+                "effects": null,
+                "DPS": null,
+                "damage": {
+                    "level1": 100,
+                    "level2": 175,
+                    "level3": 250,
+                    "level4": 325
+                },
+                "castRange": 600,
+                "duration": 2,
+                "cooldown": 13,
+                "manacost": 140,
+                "UAM": null,
+                "bkbPiercing": "partial",
+                "linkensBlocked": "partial",
+                "dispellable": "partial",
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Great Cleave": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "physical",
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": 300,
+                "castRange": null,
+                "effects": null,
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": {
+                    "level1": "30%",
+                    "level2": "42%",
+                    "level3": "54%",
+                    "level4": "66%"
+                },
+                "cooldown": null,
+                "UAM": false,
+                "bkbPiercing": true,
+                "linkensBlocked": false,
+                "dispellable": null,
+                "usableByIllusions": false,
+                "breakDisabled": true
+            },
+            "Warcry": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "allies",
+                "damageType": null,
+                "castPoint": 0,
+                "castBackswing": 0,
+                "radius": 900,
+                "castRange": null,
+                "effects": {
+                    "movespeedBuff": "12%",
+                    "armorBonus" : {
+                        "level1": 5,
+                        "level2": 10,
+                        "level3": 15,
+                        "level4": 20
+                    }    
+                },
+                "duration": 8,
+                "manacost": 25,
+                "DPS": null,
+                "damage": null,
+                "cooldown": {
+                    "level1": 32,
+                    "level2": 26,
+                    "level3": 20,
+                    "level4": 14
+                },
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": false,
+                "dispellable": true,
+                "usableByIllusions": null,
+                "breakDisabled": true
+            },
+            "God's Strength": {
+                "ult": true,
+                "aghsUpgradable": true,
+                "affects": "self",
+                "damageType": null,
+                "castPoint": 0.3,
+                "castBackswing": 0,
+                "radius": null,
+                "castRange": null,
+                "effects": {
+                    "selfDamageBonus": {
+                        "level1": "100%",
+                        "level2": "150%",
+                        "level3": "200%"
+                    },
+                    "alliesBonusRadius": {
+                        "base": 0,
+                        "aghs": 900
+                    },
+                    "alliesAttackDamageBonus":{
+                        "base" : 0,
+                        "aghs" : {
+                            "level1": "50%",
+                            "level2": "75%",
+                            "level3": "100%"
+                        }   
+                    }
+                },
+                "duration": 25,
+                "manacost": {
+                    "level1": 100,
+                    "level2": 150,
+                    "level3": 200
+                },
+                "DPS": null,
+                "damage": null,
+                "cooldown": 80,
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": false,
+                "breakDisabled": null
+            }
+        },
+        "baseAgi": 21,
+        "agiGain": 2,
+        "baseStr": 23,
+        "strGain": 2.7,
+        "baseInt": 16,
+        "intGain": 1.3,
+        "baseArmor": 2,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 295,
+        "baseDMGMin": 37,
+        "baseDMGMax": 39,
+        "attackRange": 128,
+        "turnRate": 0.6,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.4,
+        "attackBackswing": 0.3,
+        "missileSpeed": 0,
+        "collsionSize": 24
     }
 }
