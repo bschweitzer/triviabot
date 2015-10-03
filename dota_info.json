@@ -189,7 +189,7 @@
             "attackPoint": 0.5,
             "attackBackswing": 0.5,
             "missileSpeed": 0,
-            "collsionSize": 24
+            "collisionSize": 24
         },
         "Earthshaker":{
             "altHeroName": "Raigor Stonehoof",
@@ -366,7 +366,7 @@
             "attackPoint": 0.467,
             "attackBackswing": 0.863,
             "missileSpeed": 0,
-            "collsionSize": 24
+            "collisionSize": 24
         }
     },
     "Sven": {
@@ -527,6 +527,193 @@
         "attackPoint": 0.4,
         "attackBackswing": 0.3,
         "missileSpeed": 0,
-        "collsionSize": 24
+        "collisionSize": 24
+    },
+    "Pudge": {
+        "altHeroName": "The Butcher",
+        "heroAttribute": "Strength",
+        "abilities":{
+            "Meat Hook": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "units",
+                "damageType": "pure",
+                "castPoint": 0.3,
+                "castBackswing": {
+                    "level1": 0.43,
+                    "level2": 0.46,
+                    "level3": 0.5,
+                    "level4": 0.53
+                },
+                "radius": null,
+                "effects": {
+                    "maxTravelDistance": {
+                        "level1": 1000,
+                        "level2": 1100,
+                        "level3": 1200,
+                        "level4": 1300
+                    },
+                    "hookSearchRadius": 100
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 90,
+                    "level2": 180,
+                    "level3": 270,
+                    "level4": 360
+                },
+                "castRange": {
+                    "level1": 1000,
+                    "level2": 1100,
+                    "level3": 1200,
+                    "level4": 1300
+                },
+                "duration": null,
+                "cooldown": {
+                    "level1": 14,
+                    "level2": 13,
+                    "level3": 12,
+                    "level4": 11
+                },
+                "manacost": {
+                    "level1": 110,
+                    "level2": 120,
+                    "level3": 130,
+                    "level4": 140
+                },
+                "UAM": null,
+                "bkbPiercing": "partial",
+                "linkensBlocked": false,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Rot": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0,
+                "radius": 250,
+                "castRange": null,
+                "effects": {
+                    "movespeedSlow": "27%"
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": {
+                    "level1": 30,
+                    "level2": 60,
+                    "level3": 90,
+                    "level4": 120
+                },
+                "damage": null,
+                "cooldown": null,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Flesh Heap": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "self",
+                "damageType": null,
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": 450,
+                "castRange": null,
+                "effects": {
+                    "magicResistanceBonus": {
+                        "level1": "6%",
+                        "level2": "8%",
+                        "level3": "10%",
+                        "level4": "12%"
+                    },
+                    "strengthPerDeath" : {
+                        "level1": 1,
+                        "level2": 1.5,
+                        "level3": 2,
+                        "level4": 2.5
+                    }    
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": null,
+                "cooldown": null,
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": "partial",
+                "breakDisabled": false
+            },
+            "Dismember": {
+                "ult": true,
+                "aghsUpgradable": true,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0.3,
+                "castBackswing": 0,
+                "radius": null,
+                "castRange": 160,
+                "effects": {
+                    "heroMaxChannelTime": 2.95,
+                    "nonHeroMaxChannelTime": 5.95,
+                    "ownStrengthAsDamage": {
+                        "base" : 0,
+                        "aghs" : "100%"   
+                    },
+                    "healsEqualToDamageDealt": {
+                        "base" : false,
+                        "aghs" : true 
+                    }
+                },
+                "duration": null,
+                "manacost": {
+                    "level1": 100,
+                    "level2": 130,
+                    "level3": 170
+                },
+                "DPS": {
+                    "level1": 75,
+                    "level2": 125,
+                    "level3": 175
+                },
+                "damage": null,
+                "cooldown": 30,
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": true,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            }
+        },
+        "baseAgi": 14,
+        "agiGain": 1.5,
+        "baseStr": 25,
+        "strGain": 3.2,
+        "baseInt": 14,
+        "intGain": 1.5,
+        "baseArmor": -1,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 285,
+        "baseDMGMin": 27,
+        "baseDMGMax": 33,
+        "attackRange": 128,
+        "turnRate": 0.7,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.5,
+        "attackBackswing": 1.17,
+        "missileSpeed": 0,
+        "collisionSize": 24
     }
 }
