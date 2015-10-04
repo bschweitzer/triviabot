@@ -905,5 +905,233 @@
                 "breakDisabled": false
             }
         }
+    },
+    "Sand King": {
+        "altHeroName": "Crixalis",
+        "heroAttribute": "Strength",
+        "baseAgi": 19,
+        "agiGain": 2.1,
+        "baseStr": 18,
+        "strGain": 2.6,
+        "baseInt": 16,
+        "intGain": 1.8,
+        "baseArmor": 0,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 300,
+        "baseDMGMin": 25,
+        "baseDMGMax": 41,
+        "attackRange": 128,
+        "turnRate": 0.5,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.53,
+        "attackBackswing": 0.47,
+        "missileSpeed": 0,
+        "collisionSize": 24,
+        "abilities":{
+            "Burrow Strike": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0.53,
+                "radius": 150,
+                "effects": {
+                    "maxTravelDistance": {
+                        "level1": 350,
+                        "level2": 450,
+                        "level3": 550,
+                        "level4": 650
+                    }
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 100,
+                    "level2": 160,
+                    "level3": 220,
+                    "level4": 280
+                },
+                "castRange": {
+                    "level1": 350,
+                    "level2": 450,
+                    "level3": 550,
+                    "level4": 650
+                },
+                "duration": 2.17,
+                "cooldown": 11,
+                "manacost": {
+                    "level1": 110,
+                    "level2": 120,
+                    "level3": 130,
+                    "level4": 140
+                },
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": true,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Sand Storm": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0,
+                "radius": 525,
+                "castRange": null,
+                "effects": {
+                    "fadeTime": 0,
+                    "invisibilityLingerDuration": 1.5,
+                    "maxChannelTime": {
+                        "level1": 20,
+                        "level2": 40,
+                        "level3": 60,
+                        "level4": 80
+                    }
+                },
+                "duration": null,
+                "manacost": {
+                    "level1": 60,
+                    "level2": 50,
+                    "level3": 40,
+                    "level4": 30
+                },
+                "DPS": {
+                    "level1": 25,
+                    "level2": 50,
+                    "level3": 75,
+                    "level4": 100
+                },
+                "damage": null,
+                "cooldown": {
+                    "level1": 40,
+                    "level2": 30,
+                    "level3": 20,
+                    "level4": 10
+                },
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": true,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Caustic Finale": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": 400,
+                "castRange": null,
+                "effects": {
+                    "explosionDamage": {
+                        "level1": 90,
+                        "level2": 130,
+                        "level3": 170,
+                        "level4": 220
+                    },
+                    "expireDamage" : {
+                        "level1": 45,
+                        "level2": 65,
+                        "level3": 85,
+                        "level4": 110
+                    },
+                    "movementSpeedSlow": "25%",
+                    "debuffDuration": 6,
+                    "slowDuration": 3    
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": null,
+                "cooldown": null,
+                "UAM": true,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": false,
+                "usableByIllusions": false,
+                "breakDisabled": true
+            },
+            "Epicenter": {
+                "ult": true,
+                "aghsUpgradable": true,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0,
+                "castBackswing": 0,
+                "radius": null,
+                "castRange": null,
+                "effects": {
+                    "channelTime": 2,
+                    "radiusPerPulse": {
+                        "base": {
+                            "pulse1": 275,
+                            "pulse2": 325,
+                            "pulse3": 375,
+                            "pulse4": 425,
+                            "pulse5": 475,
+                            "pulse6": 525,
+                            "pulse7": 575,
+                            "pulse8": 650,
+                            "pulse9": 675,
+                            "pulse10": 700
+                        },
+                        "aghs": {
+                            "pulse11": 775,
+                            "pulse12": 825
+                        }
+                    },
+                    "numberOfPulses": {
+                        "base" : {
+                            "level1": 6,
+                            "level2": 8,
+                            "level3": 10
+                        },
+                        "aghs" : {
+                            "level1": 8,
+                            "level2": 10,
+                            "level3": 12
+                        }   
+                    },
+                    "damagePerPulse": 110,
+                    "movementSpeedSlow": "30%",
+                    "attackSpeedSlow": 30,
+                    "slowDuration": 3
+                },
+                "duration": null,
+                "manacost": {
+                    "level1": 175,
+                    "level2": 250,
+                    "level3": 325
+                },
+                "DPS": null,
+                "damage": null,
+                "cooldown": {
+                        "base" : {
+                            "level1": 140,
+                            "level2": 120,
+                            "level3": 100
+                        },
+                        "aghs" : {
+                            "level1": 120,
+                            "level2": 100,
+                            "level3": 80
+                        }   
+                    },
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": false,
+                "dispellable": "partial",
+                "usableByIllusions": null,
+                "breakDisabled": null
+            }
+        }
     }
 }
