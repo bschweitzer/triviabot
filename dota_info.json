@@ -1334,5 +1334,168 @@
                 "breakDisabled": null
             }
         }
+    },
+    "Slardar": {
+        "altHeroName": "Slithereen Guard",
+        "heroAttribute": "Strength",
+        "baseAgi": 17,
+        "agiGain": 2.4,
+        "baseStr": 21,
+        "strGain": 2.8,
+        "baseInt": 15,
+        "intGain": 1.5,
+        "baseArmor": 3,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 300,
+        "baseDMGMin": 30,
+        "baseDMGMax": 38,
+        "attackRange": 128,
+        "turnRate": 0.5,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.36,
+        "attackBackswing": 0.64,
+        "missileSpeed": 0,
+        "collisionSize": 24,
+        "abilities":{
+            "Sprint": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "self",
+                "damageType": null,
+                "castPoint": 0,
+                "castBackswing": 0,
+                "radius": null,
+                "effects": {
+                    "moveSpeedBonus": {
+                        "level1": "20%",
+                        "level2": "28%",
+                        "level3": "36%",
+                        "level4": "44%"
+                    },
+                    "damageAmplification": "15%"
+                },
+                "DPS": null,
+                "damage": null,
+                "castRange": null,
+                "duration": 12,
+                "cooldown": 17,
+                "manacost": null,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Slithereen Crush": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "physical",
+                "castPoint": 0.35,
+                "castBackswing": 0.6,
+                "radius": 350,
+                "castRange": null,
+                "effects": {
+                    "movementSpeedSlow": "20%",
+                    "attackSpeedSlow": 20,
+                    "stunDuration": {
+                        "level1": 1.6,
+                        "level2": 1.9,
+                        "level3": 2.2,
+                        "level4": 2.5
+                    },
+                    "slowDuration": 2
+                },
+                "duration": null,
+                "manacost": {
+                    "level1": 80,
+                    "level2": 95,
+                    "level3": 105,
+                    "level4": 115
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 75,
+                    "level2": 125,
+                    "level3": 175,
+                    "level4": 225
+                },
+                "cooldown": 8,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": "partial",
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Bash": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "physical",
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": null,
+                "castRange": null,
+                "effects": {
+                    "procChance": {
+                        "level1": "10%",
+                        "level2": "15%",
+                        "level3": "20%",
+                        "level4": "25%"
+                    },
+                    "heroStunDuration" : 1,
+                    "nonHeroStunDuration": 2   
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": {
+                    "level1": 60,
+                    "level2": 80,
+                    "level3": 100,
+                    "level4": 120
+                },
+                "cooldown": null,
+                "UAM": false,
+                "bkbPiercing": true,
+                "linkensBlocked": false,
+                "dispellable": null,
+                "usableByIllusions": false,
+                "breakDisabled": true
+            },
+            "Amplify Damage": {
+                "ult": true,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": null,
+                "castPoint": 0.35,
+                "castBackswing": 0.6,
+                "radius": null,
+                "castRange": 700,
+                "effects": {
+                    "armorReduction": {
+                        "level1": 10,
+                        "level2": 15,
+                        "level3": 20
+                    }
+                },
+                "duration": 25,
+                "manacost": 25,
+                "DPS": null,
+                "damage": null,
+                "cooldown": 5,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": true,
+                "dispellable": true,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            }
+        }
     }
 }
