@@ -1,0 +1,48 @@
+{
+	"weapons": {
+		"Glock-18": {
+			"Price" : 200,
+			"Origin" : "Austria",
+			"Caliber" : "9mm",
+			"Magazine Capacity" : "20/120",
+			"Firing Modes" : {
+				"Primary" : "Semi-auto",
+				"Secondary" : "3 round burst"
+			},
+			"Rate of Fire" : {
+				"Semi-auto" : 400,
+				"Burst": 1200
+			},
+			"Loaded Weight" : "0.9kg",
+			"Projectile Weight" : "8g",
+			"Muzzle Velocity" : "1132ft/s",
+			"Muzzle Energy" : "475J",
+			"Team" : "Terrorists",
+			"Reload Time" : 2.2,
+			"Movement Speed" : 240,
+			"Kill Award" : {
+				"Competitive" : 300,
+				"Casual" : 150 
+			},
+			"Damage" : {
+				"base" : 28,
+				"unarmored" : {
+					"head" : 111,
+					"chest & arm" : 27,
+					"stomach" : 34,
+					"leg" : 21
+				},
+				"armored" : {
+					"head" : 52,
+					"chest & arm" : 13,
+					"stomach" : 16,
+					"leg" : 21
+				}
+			},
+			"Recoil Control" : "22/26",
+			"Accurate Range" : "28m",
+			"Armor Penetration" : "47%",
+			"Penetration Power" : 100
+		}
+	}
+}
