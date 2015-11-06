@@ -1778,5 +1778,185 @@
                 "breakDisabled": null
             }
         }
+    },
+    "Tidehunter": {
+        "altHeroName": "Leviathan",
+        "heroAttribute": "Strength",
+        "baseAgi": 15,
+        "agiGain": 1.5,
+        "baseStr": 22,
+        "strGain": 3,
+        "baseInt": 16,
+        "intGain": 1.7,
+        "baseArmor": 1,
+        "baseAttackTime": 1.7,
+        "baseHPRegen": 0.25,
+        "baseManaRegen": 0.01,
+        "baseMoveSpeed": 305,
+        "baseDMGMin": 25,
+        "baseDMGMax": 31,
+        "attackRange": 128,
+        "turnRate": 0.4,
+        "daytimeVision": 1800,
+        "nighttimeVision": 800,
+        "attackPoint": 0.6,
+        "attackBackswing": 0.56,
+        "missileSpeed": 0,
+        "collisionSize": 24,
+        "abilities": {
+            "Gush": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0.3,
+                "castBackswing": 0.6,
+                "radius": null,
+                "effects": {
+                    "armorReduction": {
+                        "level1": 3,
+                        "level2": 4,
+                        "level3": 5,
+                        "level4": 6
+                    },
+                    "movementSpeedSlow": "40%"
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 110,
+                    "level2": 160,
+                    "level3": 210,
+                    "level4": 260
+                },
+                "castRange": 700,
+                "duration": 4,
+                "cooldown": 12,
+                "manacost": 120,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": true,
+                "dispellable": true,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Kraken Shell": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "self",
+                "damageType": null,
+                "castPoint": null,
+                "castBackswing": null,
+                "radius": null,
+                "castRange": null,
+                "effects": {
+                    "damageBlock": {
+                        "level1": 12,
+                        "level2": 24,
+                        "level3": 36,
+                        "level4": 48
+                    },
+                    "damageThreshold": {
+                        "level1": 600,
+                        "level2": 550,
+                        "level3": 500,
+                        "level4": 450
+                    },
+                    "thresholdResetTimer": 6,
+                    "misc": "removes debuffs with a strong dispel after damage threshold is reached"
+                },
+                "duration": null,
+                "manacost": null,
+                "DPS": null,
+                "damage": null,
+                "cooldown": null,
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": null,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": true
+            },
+            "Anchor Smash": {
+                "ult": false,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "physical",
+                "castPoint": 0.5,
+                "castBackswing": 0.2,
+                "radius": 375,
+                "castRange": null,
+                "effects": {
+                    "attackDamageReduction": {
+                        "level1": "45%",
+                        "level2": "50%",
+                        "level3": "55%",
+                        "level4": "60%"
+                    }
+                },
+                "duration": 6,
+                "manacost": {
+                    "level1": 30,
+                    "level2": 40,
+                    "level3": 50,
+                    "level4": 60
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 75,
+                    "level2": 125,
+                    "level3": 175,
+                    "level4": 225
+                },
+                "cooldown": {
+                    "level1": 7,
+                    "level2": 6,
+                    "level3": 5,
+                    "level4": 4
+                },
+                "UAM": null,
+                "bkbPiercing": true,
+                "linkensBlocked": false,
+                "dispellable": true,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            },
+            "Ravage": {
+                "ult": true,
+                "aghsUpgradable": false,
+                "affects": "enemies",
+                "damageType": "magical",
+                "castPoint": 0.3,
+                "castBackswing": 0.57,
+                "radius": 1025,
+                "castRange": null,
+                "effects": {
+                    "effectWidth": 250,
+                    "stunDuration": {
+                        "level1": 2.02,
+                        "level2": 2.32,
+                        "level3": 2.77
+                    }
+                },
+                "duration": null,
+                "manacost": {
+                    "level1": 150,
+                    "level2": 225,
+                    "level3": 325
+                },
+                "DPS": null,
+                "damage": {
+                    "level1": 200,
+                    "level2": 290,
+                    "level3": 380
+                },
+                "cooldown": 150,
+                "UAM": null,
+                "bkbPiercing": false,
+                "linkensBlocked": false,
+                "dispellable": false,
+                "usableByIllusions": null,
+                "breakDisabled": null
+            }
+        }
     }
 }
